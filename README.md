@@ -22,11 +22,11 @@ On Reset (top left button) an alert is displayed center screen asking whether th
 . Holiday selection:
 On Select Holiday (top right button) the user is shown a table view presented via popover segue. It holds a list of 3 holidays . You may add more. The current selection is indicated with a checkmark. You may use one of the built-in table view cells that have a built-in image view to present it or make up your own table view cell.
 
-7. Test mode:
+. Test mode:
 At the bottom right is a test mode switch (UISwitch). If the switch is on each day window executes as regularly even if tapped put of order.Exiting from test mode causes a full reset as described in point 6 above but without causing the alert to pop.
 
-8. Out of order alert:
+. Out of order alert:
 If a day view is tapped out of order and the application is not in test mode the secret is not shown. Instead show an alert just below the day view in question. Make sure to use the correct arrows.
 
-9. Big reveal:
+. Big reveal:
 When tapping the final day view (in test mode or otherwise) the green "Happy Holidays" view (HolidayViewController) is displayed via Storyboard segue.
