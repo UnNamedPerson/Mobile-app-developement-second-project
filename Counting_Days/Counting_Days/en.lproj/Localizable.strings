@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Counting_Days
+
+  Created by Abdullah Alsayari on 10/28/18.
+  Copyright © 2018 Abdullah Alsayari. All rights reserved.
+*/
+
+"dayTextValue" = "Day";
+"testmodeTextValue" = "TestMode";
+"alertTextTitle" = "Wait!";
+"alertTextMessage" = "we know you are in a hurry to see the big reveal, but you must go in order";
+"resetText" = "reset";
+"selectHolidayText" = "select Holiday";
+"happyHolidayText" = "Happy Holiday!";
+"resetWarningTitleText" = "Are you sure you want to reset?";
+"resetWarningText" = "resetting will cause all the days to close, Are you sure you want to reset";
+"resetAlertYes" = "Yes";
+"resetAlertNo" = "No";
+

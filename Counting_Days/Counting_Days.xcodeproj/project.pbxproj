@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140D9A0B2186329E00782168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D9A0A2186329E00782168 /* AppDelegate.swift */; };
+		140D9A0D2186329E00782168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D9A0C2186329E00782168 /* ViewController.swift */; };
+		140D9A102186329E00782168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D9A0E2186329E00782168 /* Main.storyboard */; };
+		140D9A12218632A000782168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140D9A11218632A000782168 /* Assets.xcassets */; };
+		140D9A15218632A000782168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D9A13218632A000782168 /* LaunchScreen.storyboard */; };
+		140D9A20218632A000782168 /* Counting_DaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D9A1F218632A000782168 /* Counting_DaysTests.swift */; };
+		140D9A2B218632A000782168 /* Counting_DaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D9A2A218632A000782168 /* Counting_DaysUITests.swift */; };
+		1417AE6F218AA10300A628E2 /* TablePopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417AE6E218AA10300A628E2 /* TablePopViewController.swift */; };
+		1417AE74218B536000A628E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1417AE76218B536000A628E2 /* Localizable.strings */; };
+		1417AE79218B604C00A628E2 /* day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417AE78218B604C00A628E2 /* day.swift */; };
+		1417AE7B218B684600A628E2 /* HappyHolidayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417AE7A218B684600A628E2 /* HappyHolidayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140D9A1C218632A000782168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140D99FF2186329E00782168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140D9A062186329E00782168;
+			remoteInfo = Counting_Days;
+		};
+		140D9A27218632A000782168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140D99FF2186329E00782168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140D9A062186329E00782168;
+			remoteInfo = Counting_Days;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140D9A072186329E00782168 /* Counting_Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counting_Days.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140D9A0A2186329E00782168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		140D9A0C2186329E00782168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		140D9A0F2186329E00782168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140D9A11218632A000782168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140D9A14218632A000782168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		140D9A16218632A000782168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140D9A1B218632A000782168 /* Counting_DaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Counting_DaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140D9A1F218632A000782168 /* Counting_DaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counting_DaysTests.swift; sourceTree = "<group>"; };
+		140D9A21218632A000782168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140D9A26218632A000782168 /* Counting_DaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Counting_DaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140D9A2A218632A000782168 /* Counting_DaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counting_DaysUITests.swift; sourceTree = "<group>"; };
+		140D9A2C218632A100782168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1417AE6E218AA10300A628E2 /* TablePopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablePopViewController.swift; sourceTree = "<group>"; };
+		1417AE70218B52C100A628E2 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		1417AE71218B52C100A628E2 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1417AE73218B530300A628E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1417AE75218B536000A628E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1417AE77218B536100A628E2 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1417AE78218B604C00A628E2 /* day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day.swift; sourceTree = "<group>"; };
+		1417AE7A218B684600A628E2 /* HappyHolidayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyHolidayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140D9A042186329E00782168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A18218632A000782168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A23218632A000782168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140D99FE2186329E00782168 = {
+			isa = PBXGroup;
+			children = (
+				140D9A092186329E00782168 /* Counting_Days */,
+				140D9A1E218632A000782168 /* Counting_DaysTests */,
+				140D9A29218632A000782168 /* Counting_DaysUITests */,
+				140D9A082186329E00782168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		140D9A082186329E00782168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140D9A072186329E00782168 /* Counting_Days.app */,
+				140D9A1B218632A000782168 /* Counting_DaysTests.xctest */,
+				140D9A26218632A000782168 /* Counting_DaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140D9A092186329E00782168 /* Counting_Days */ = {
+			isa = PBXGroup;
+			children = (
+				140D9A0A2186329E00782168 /* AppDelegate.swift */,
+				140D9A0C2186329E00782168 /* ViewController.swift */,
+				140D9A0E2186329E00782168 /* Main.storyboard */,
+				1417AE7A218B684600A628E2 /* HappyHolidayViewController.swift */,
+				1417AE6E218AA10300A628E2 /* TablePopViewController.swift */,
+				140D9A11218632A000782168 /* Assets.xcassets */,
+				140D9A13218632A000782168 /* LaunchScreen.storyboard */,
+				140D9A16218632A000782168 /* Info.plist */,
+				1417AE76218B536000A628E2 /* Localizable.strings */,
+				1417AE78218B604C00A628E2 /* day.swift */,
+			);
+			path = Counting_Days;
+			sourceTree = "<group>";
+		};
+		140D9A1E218632A000782168 /* Counting_DaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				140D9A1F218632A000782168 /* Counting_DaysTests.swift */,
+				140D9A21218632A000782168 /* Info.plist */,
+			);
+			path = Counting_DaysTests;
+			sourceTree = "<group>";
+		};
+		140D9A29218632A000782168 /* Counting_DaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				140D9A2A218632A000782168 /* Counting_DaysUITests.swift */,
+				140D9A2C218632A100782168 /* Info.plist */,
+			);
+			path = Counting_DaysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140D9A062186329E00782168 /* Counting_Days */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140D9A2F218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_Days" */;
+			buildPhases = (
+				140D9A032186329E00782168 /* Sources */,
+				140D9A042186329E00782168 /* Frameworks */,
+				140D9A052186329E00782168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Counting_Days;
+			productName = Counting_Days;
+			productReference = 140D9A072186329E00782168 /* Counting_Days.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140D9A1A218632A000782168 /* Counting_DaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140D9A32218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_DaysTests" */;
+			buildPhases = (
+				140D9A17218632A000782168 /* Sources */,
+				140D9A18218632A000782168 /* Frameworks */,
+				140D9A19218632A000782168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140D9A1D218632A000782168 /* PBXTargetDependency */,
+			);
+			name = Counting_DaysTests;
+			productName = Counting_DaysTests;
+			productReference = 140D9A1B218632A000782168 /* Counting_DaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		140D9A25218632A000782168 /* Counting_DaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140D9A35218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_DaysUITests" */;
+			buildPhases = (
+				140D9A22218632A000782168 /* Sources */,
+				140D9A23218632A000782168 /* Frameworks */,
+				140D9A24218632A000782168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140D9A28218632A000782168 /* PBXTargetDependency */,
+			);
+			name = Counting_DaysUITests;
+			productName = Counting_DaysUITests;
+			productReference = 140D9A26218632A000782168 /* Counting_DaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140D99FF2186329E00782168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Abdullah Alsayari";
+				TargetAttributes = {
+					140D9A062186329E00782168 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					140D9A1A218632A000782168 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 140D9A062186329E00782168;
+					};
+					140D9A25218632A000782168 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 140D9A062186329E00782168;
+					};
+				};
+			};
+			buildConfigurationList = 140D9A022186329E00782168 /* Build configuration list for PBXProject "Counting_Days" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 140D99FE2186329E00782168;
+			productRefGroup = 140D9A082186329E00782168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140D9A062186329E00782168 /* Counting_Days */,
+				140D9A1A218632A000782168 /* Counting_DaysTests */,
+				140D9A25218632A000782168 /* Counting_DaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140D9A052186329E00782168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417AE74218B536000A628E2 /* Localizable.strings in Resources */,
+				140D9A15218632A000782168 /* LaunchScreen.storyboard in Resources */,
+				140D9A12218632A000782168 /* Assets.xcassets in Resources */,
+				140D9A102186329E00782168 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A19218632A000782168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A24218632A000782168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140D9A032186329E00782168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1417AE7B218B684600A628E2 /* HappyHolidayViewController.swift in Sources */,
+				140D9A0D2186329E00782168 /* ViewController.swift in Sources */,
+				140D9A0B2186329E00782168 /* AppDelegate.swift in Sources */,
+				1417AE79218B604C00A628E2 /* day.swift in Sources */,
+				1417AE6F218AA10300A628E2 /* TablePopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A17218632A000782168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140D9A20218632A000782168 /* Counting_DaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140D9A22218632A000782168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140D9A2B218632A000782168 /* Counting_DaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140D9A1D218632A000782168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140D9A062186329E00782168 /* Counting_Days */;
+			targetProxy = 140D9A1C218632A000782168 /* PBXContainerItemProxy */;
+		};
+		140D9A28218632A000782168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140D9A062186329E00782168 /* Counting_Days */;
+			targetProxy = 140D9A27218632A000782168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140D9A0E2186329E00782168 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140D9A0F2186329E00782168 /* Base */,
+				1417AE70218B52C100A628E2 /* ar */,
+				1417AE73218B530300A628E2 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		140D9A13218632A000782168 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140D9A14218632A000782168 /* Base */,
+				1417AE71218B52C100A628E2 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1417AE76218B536000A628E2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1417AE75218B536000A628E2 /* en */,
+				1417AE77218B536100A628E2 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140D9A2D218632A100782168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		140D9A2E218632A100782168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140D9A30218632A100782168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_Days/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-Days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		140D9A31218632A100782168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_Days/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-Days";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		140D9A33218632A100782168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_DaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-DaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting_Days.app/Counting_Days";
+			};
+			name = Debug;
+		};
+		140D9A34218632A100782168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_DaysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-DaysTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counting_Days.app/Counting_Days";
+			};
+			name = Release;
+		};
+		140D9A36218632A100782168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_DaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-DaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Counting_Days;
+			};
+			name = Debug;
+		};
+		140D9A37218632A100782168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Counting_DaysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aalsayar.Counting-DaysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Counting_Days;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140D9A022186329E00782168 /* Build configuration list for PBXProject "Counting_Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140D9A2D218632A100782168 /* Debug */,
+				140D9A2E218632A100782168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140D9A2F218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_Days" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140D9A30218632A100782168 /* Debug */,
+				140D9A31218632A100782168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140D9A32218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_DaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140D9A33218632A100782168 /* Debug */,
+				140D9A34218632A100782168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140D9A35218632A100782168 /* Build configuration list for PBXNativeTarget "Counting_DaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140D9A36218632A100782168 /* Debug */,
+				140D9A37218632A100782168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140D99FF2186329E00782168 /* Project object */;
+}

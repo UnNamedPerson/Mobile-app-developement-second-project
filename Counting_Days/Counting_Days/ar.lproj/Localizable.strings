@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Counting_Days
+
+  Created by Abdullah Alsayari on 10/28/18.
+  Copyright © 2018 Abdullah Alsayari. All rights reserved.
+*/
+
+"dayTextValue" = "اليوم";
+"testmodeTextValue" = "وضع التجربة";
+"alertTextTitle" = "انتظر";
+"alertTextMessage" = "نعلم أنك على عجل لكن ،عليك أن تختار بشكل تسلسلي";
+"resetText" = "إعادة الترتيب";
+"selectHolidayText" = "اختر عطلة";
+"happyHolidayText" = "عطلة سعيدة!";
+"resetWarningTitleText" = "هل أنت متأكد أنك تريد إعادة الترتيب؟";
+"resetWarningText" = "إعادة الترتيب سوف يؤدي إلى إقفال جميع الأيام";
+"resetAlertYes" = "نعم";
+"resetAlertNo" = "لا";
